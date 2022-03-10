@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --soft-blue:  hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+}
+body {
+    font-family: lato, sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+   /*background-color: red;*/
+    width: 300px;
+    height: 77vh;
+    color: aliceblue;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+.top-image {
+    width: 270px;
+    height: 55%;
+    margin-bottom: 20px;
+
+    padding-right: 5px;
+    width: 260px;
+    border-radius: 7px;
+}
+/*.top-image img {
+    width: 260px;
+    height: 100%;
+    border-radius: 5px;
+}*/
+.top-image {
+    background: url(images/image-equilibrium.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.top-image:hover {
+    background: url(images/favicon-32x32.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+h4 {
+    margin: 20px 0;
+    font-weight: 600;
+}
+h4:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
+.content > p {
+    margin: 20px 0;
+    color: var(--soft-blue);
+    font-size: 1rem;
+}
+
+.flex .two {
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.eth {
+    color: var(--cyan);
+    font-size: .8rem;
+}
+.eth .small {
+    margin-left: 5px;
+}
+.clock {
+    color: var(--soft-blue);
+    font-size: .8rem;
+}
+.clock .small {
+    margin-left: 5px;
+}
+.line {
+    margin: 20px 0;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+}
+.footer-image {
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.footer-image img {
+    width: 100%;
+}
+.footer-p {
+    margin-left: 10px;
+    font-size: .8rem;
+}
+#span {
+    color: var(--soft-blue);
+}
+#change:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/* utility */
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*end of utility*/
+
+.footer {
+    justify-content: flex-start;
+}.card {
+    margin-top: 80px;
+}
